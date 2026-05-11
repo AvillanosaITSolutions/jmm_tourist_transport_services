@@ -48,7 +48,7 @@ export default function Hero() {
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
                         {/* Phone */}
                         <a
-                            href="tel:+639123456789"
+                            href="tel:+639958127441"
                             className="group flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-[#ff6b47]/8 transition-colors duration-200"
                         >
                             <div className="w-10 h-10 rounded-full bg-[#ff6b47]/10 group-hover:bg-[#ff6b47] flex items-center justify-center transition-colors duration-200">
@@ -58,13 +58,13 @@ export default function Hero() {
                             </div>
                             <div className="text-center">
                                 <div className="text-[0.6rem] font-bold text-gray-400 uppercase tracking-widest">Call Us</div>
-                                <div className="text-xs font-semibold text-gray-700 mt-0.5">+63 912 345 6789</div>
+                                <div className="text-xs font-semibold text-gray-700 mt-0.5">0995 812 7441</div>
                             </div>
                         </a>
 
                         {/* WhatsApp */}
                         <a
-                            href="https://wa.me/639123456789"
+                            href="https://wa.me/639972752567"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-[#25D366]/8 transition-colors duration-200"
@@ -82,7 +82,7 @@ export default function Hero() {
 
                         {/* Email */}
                         <a
-                            href="mailto:hello@coralwindexpeditions.com"
+                            href="mailto:hello.jmm@gmail.com"
                             className="group flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-[#0b7fa0]/8 transition-colors duration-200"
                         >
                             <div className="w-10 h-10 rounded-full bg-[#0b7fa0]/10 group-hover:bg-[#0b7fa0] flex items-center justify-center transition-colors duration-200">
@@ -92,13 +92,13 @@ export default function Hero() {
                             </div>
                             <div className="text-center">
                                 <div className="text-[0.6rem] font-bold text-gray-400 uppercase tracking-widest">Email</div>
-                                <div className="text-xs font-semibold text-gray-700 mt-0.5">hello@coralwind<wbr />expeditions.com</div>
+                                <div className="text-xs font-semibold text-gray-700 mt-0.5">hello.jmm@gmail.com</div>
                             </div>
                         </a>
 
                         {/* Facebook */}
                         <a
-                            href="https://facebook.com/coralwindexpeditions"
+                            href="https://www.facebook.com/profile.php?id=100083317690066"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-[#1877F2]/8 transition-colors duration-200"
@@ -110,7 +110,7 @@ export default function Hero() {
                             </div>
                             <div className="text-center">
                                 <div className="text-[0.6rem] font-bold text-gray-400 uppercase tracking-widest">Facebook</div>
-                                <div className="text-xs font-semibold text-gray-700 mt-0.5">@CoralwindExpeditions</div>
+                                <div className="text-xs font-semibold text-gray-700 mt-0.5">Facebook Page</div>
                             </div>
                         </a>
 
