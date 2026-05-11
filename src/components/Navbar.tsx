@@ -28,11 +28,11 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
                 {/* Logo */}
                 <a href="#" className="flex flex-col leading-tight">
-                    <span className={`font-normal text-2xl tracking-wide ${scrolled ? 'text-[#0b7fa0]' : 'text-white'}`} style={{ fontFamily: 'Pacifico, cursive' }}>
-                        Coralwind
+                    <span className={`font-normal text-2xl tracking-wide ${scrolled ? 'text-yellow-800' : 'text-white'}`} style={{ fontFamily: 'Monospace, cursive' }}>
+                        JMM
                     </span>
-                    <span className={`text-[0.6rem] tracking-[0.22em] uppercase font-semibold ${scrolled ? 'text-[#e85d37]' : 'text-sky-200'}`}>
-                        Expeditions
+                    <span className={`text-[0.6rem] tracking-[0.22em] uppercase font-semibold ${scrolled ? 'text-yellow-500' : 'text-sky-200'}`}>
+                        Tourist Transport Services
                     </span>
                 </a>
 
