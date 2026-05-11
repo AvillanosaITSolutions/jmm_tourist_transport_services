@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/jmmtouristtransportservices/',
+  base: '/jmm_tourist_transport_services/',
   plugins: [react(), tailwindcss()],
   build: {
     rollupOptions: {
