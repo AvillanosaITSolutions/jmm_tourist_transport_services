@@ -97,7 +97,7 @@ export default function Footer() {
             {/* Bottom bar */}
             <div className="border-t border-sky-100">
                 <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-400 text-xs">
-                    <span>©2025 Coralwind Expeditions. All Rights Reserved.</span>
+                    <span>© {new Date().getFullYear()} JMM Tourist Transport Services. All Rights Reserved.</span>
                     <span>Coron, Palawan, Philippines</span>
                 </div>
             </div>

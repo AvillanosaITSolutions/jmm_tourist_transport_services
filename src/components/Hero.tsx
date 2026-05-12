@@ -45,7 +45,7 @@ export default function Hero() {
                     <p className="text-[0.6rem] font-bold text-gray-400 uppercase tracking-widest mb-5 text-center">
                         Get in Touch — We're Ready to Plan Your Trip
                     </p>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                         {/* Phone */}
                         <a
                             href="tel:+639958127441"
@@ -114,7 +114,7 @@ export default function Hero() {
                             </div>
                         </a>
 
-                        {/* Instagram */}
+                        {/* Instagram
                         <a
                             href="https://instagram.com/coralwindexpeditions"
                             target="_blank"
@@ -130,7 +130,7 @@ export default function Hero() {
                                 <div className="text-[0.6rem] font-bold text-gray-400 uppercase tracking-widest">Instagram</div>
                                 <div className="text-xs font-semibold text-gray-700 mt-0.5">@CoralwindExpeditions</div>
                             </div>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>

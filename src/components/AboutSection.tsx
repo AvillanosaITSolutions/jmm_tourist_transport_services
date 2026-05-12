@@ -2,10 +2,10 @@ import heroImg from '../assets/hero.jpg'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 const stats = [
-    { value: '500+', label: 'Tours Completed' },
+    { value: '20k+', label: 'Tours Completed' },
     { value: '4.9★', label: 'Average Rating' },
-    { value: '10+', label: 'Years Experience' },
-    { value: '20+', label: 'Island Destinations' },
+    { value: '25+', label: 'Years Experience' },
+    { value: '50+', label: 'Island Destinations' },
 ]
 
 export default function AboutSection() {
@@ -20,7 +20,7 @@ export default function AboutSection() {
                     <div className="relative rounded-2xl overflow-hidden" style={{ aspectRatio: '4/5', maxHeight: '580px' }}>
                         <img
                             src={heroImg}
-                            alt="Coralwind Expeditions local boat"
+                            alt="JMM Tourist Transport Services local boat"
                             className="w-full h-full object-cover"
                         />
                     </div>
@@ -29,7 +29,7 @@ export default function AboutSection() {
                         <div
                             className="text-4xl font-bold text-[#ff6b47]"
                         >
-                            10+
+                            25+
                         </div>
                         <div className="text-sm text-white/65 mt-1 leading-snug">
                             Years Navigating<br />Coron's Waters
@@ -47,19 +47,23 @@ export default function AboutSection() {
                     <h2
                         className="text-4xl md:text-5xl font-bold text-[#0b7fa0] leading-tight mb-6"
                     >
-                        Your Journey Starts Here in Coron
+                        Explore Coron, Palawan with Trusted Local Operators
                     </h2>
                     <p className="text-gray-500 leading-relaxed mb-4">
-                        Founded by local fishermen families who have navigated these waters for generations,
-                        Coralwind Expeditions is a Coron-based tour operator — not a booking platform. We own
-                        and operate every boat, hire every crew member, and run every trip ourselves. There
-                        is no middleman between you and the sea.
+                        Founded in 2000 by local fishermen families who have navigated the waters of Coron for generations, 
+                        JMM Tourist Transport Services began with a single small boat accommodating only 4–8 passengers. 
+                        Through years of dedication and hands-on service, we have grown into a trusted Coron-based tour operator 
+                        with a fleet of at least 5 fully operated boats, each with an average maximum capacity of 30 passengers.
+                        
+                        We are not a booking platform — we own and operate every boat, hire every crew member, and personally 
+                        manage every trip ourselves. There is no middleman between you and the sea.
                     </p>
                     <p className="text-gray-500 leading-relaxed mb-4">
-                        Our fleet of traditional outrigger bangka boats are maintained to maritime standards
-                        and crewed by MTOP-licensed local guides who know every hidden cove, dive site, and
-                        secret sandbar in the Calamian Islands. When you book with us, you're supporting a
-                        family business rooted in Coron — not a corporate chain.
+                        Our fleet of traditional outrigger bangka boats are maintained to maritime standards and crewed by MTOP-licensed local 
+                        guides who know every hidden cove, dive site, and secret sandbar in the Calamian Islands. Throughout our years of operation, 
+                        we have continuously improved our services and maintained high standards in tourist transport across the Calamianes Islands.
+                        We are committed to giving every guest the best possible experience — creating unforgettable memories that will inspire them 
+                        to return and explore Coron with us again. When you book with us, you're supporting a family business rooted in Coron — not a corporate chain.
                     </p>
                     <p className="text-gray-500 leading-relaxed mb-10">
                         We offer day tours, overnight island camps, multi-day El Nido–Coron crossings, and
